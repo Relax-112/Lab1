@@ -98,6 +98,8 @@
     background-color:  rgb(226,226,226);
     margin-left: 0.3%;
     margin-right: 40%;
+    display: flex;
+    justify-content: center;
   }
   .container3{
     margin-top: 5%;
@@ -117,10 +119,12 @@
   display: inline-block; 
   background: rgb(0, 0, 0);
   padding: 5px 12px;
-  margin: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
   font-size: 15px;
   border-radius: 100%;
   color: #FFF;
+  margin-top: 0px;
 }
 
 .tooltip:before,
@@ -179,9 +183,82 @@
 #anim:hover {
   animation: shake 500ms ease-in-out forwards;
 }
-
+#anim{
+cursor: pointer;
+}
 
 .scrool {
   max-height: 90%; 
   overflow-y: auto; 
+}
+
+.nome{
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#name{
+  margin-left: 20px;
+}
+.coluna{
+  border: 1px solid none;
+}
+.coluna_2{
+  width: 50%;
+}
+.coluna_1{
+  width: 50%;
+  margin-right: 0px;
+}
+.nome1{
+  margin-right: 10px;
+  text-align: right;
+  margin-top: 20px;
+  
+}
+.input1{
+  margin-top: 17px;
+  display: flex;
+  justify-content: start;
+}
+.input2{
+  margin-top: 15px;
+  display: flex;
+  justify-content: start;
+}
+.input3{
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+}
+.input5{
+  display: flex;
+  justify-content: start;
+  margin-top: 40px;
+}
+.input3 > input{
+  height: 19px;
+}
+
+.input4{
+  margin-top: 6px;
+  display: flex;
+  justify-content: start;
+}
+.terms{
+  text-align: end;
+}
+.terms1{
+  text-align: left;
+  margin-top: 13px;
+}
+.buttonespecial{
+  padding: 10px;
+  border: 2px solid black;
+  box-shadow: 1px 1px rgb(46,49,46);
+}
+.sign{
+  text-decoration: none;
+  color: black;
 }
